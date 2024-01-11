@@ -47,11 +47,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1     &kp F2            &kp F3             &kp F4             &kp F5      &kp F6                       &kp F7     &kp F8             &kp F9           &kp F10          &kp F11   &kp F12
-&trans     &trans            &trans             &trans             &trans      &trans                       &trans     &kp C_VOLUME_DOWN  &kp C_MUTE       &kp C_VOLUME_UP  &trans    &trans
-&kp GRAVE  &kp EXCL          &kp AT             &kp HASH           &kp DOLLAR  &kp PRCNT                    &kp CARET  &kp AMPS           &kp KP_MULTIPLY  &kp LPAR         &kp RPAR  &kp TILDE
-&trans     &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans      &trans     &trans    &trans  &trans     &kp MINUS          &kp KP_PLUS      &kp LBRC         &kp RBRC  &kp PIPE
-                                                &trans             &trans      &trans     &trans    &trans  &trans     &trans             &trans
+&kp F1  &kp F2            &kp F3             &kp F4             &kp F5  &kp F6                                     &kp F7     &kp F8             &kp F9           &kp F10          &kp F11   &kp F12
+&trans  &trans            &trans             &trans             &trans  &trans                                     &trans     &kp C_VOLUME_DOWN  &kp C_MUTE       &kp C_VOLUME_UP  &trans    &trans
+&trans  &trans            &trans             &trans             &trans  &trans                                     &kp CARET  &kp AMPS           &kp KP_MULTIPLY  &kp LPAR         &kp RPAR  &kp GRAVE
+&trans  &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans     &kp MINUS          &kp KP_PLUS      &kp LBRC         &kp RBRC  &kp PIPE
+                                             &trans             &trans  &trans  &trans            &trans           &trans     &trans             &trans
             >;
         };
 
@@ -64,11 +64,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp TILDE  &trans  &trans  &trans   &trans   &trans                                      &trans       &trans     &trans     &trans     &trans    &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                                      &kp PIPE     &kp LT     &kp UP     &kp GT     &kp N0    &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                                      &trans       &kp LEFT   &kp DOWN   &kp RIGHT  &trans    &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-                           &trans   &trans   &trans   &trans            &trans           &trans       &trans     &trans
+&kp TILDE  &trans  &trans  &trans  &trans  &trans                                     &trans    &trans     &trans     &trans     &trans    &trans
+&trans     &trans  &trans  &trans  &trans  &trans                                     &kp PIPE  &kp LT     &kp UP     &kp GT     &kp N0    &trans
+&trans     &trans  &trans  &trans  &trans  &trans                                     &trans    &kp LEFT   &kp DOWN   &kp RIGHT  &trans    &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
+                           &trans  &trans  &trans  &trans            &trans           &trans    &trans     &trans
             >;
         };
     };
