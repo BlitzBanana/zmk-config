@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano//zmk
-    shield: lily58_left nice_view_adapter nice_view_gem
+    shield: lily58_left nice_view_adapter nice_epaper
   - board: nice_nano//zmk
-    shield: lily58_right nice_view_adapter nice_view_gem
+    shield: lily58_right nice_view_adapter nice_epaper
